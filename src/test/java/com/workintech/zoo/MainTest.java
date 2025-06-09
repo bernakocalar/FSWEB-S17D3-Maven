@@ -44,8 +44,8 @@ class MainTest {
     @BeforeEach
     void setup() {
 
-        kangaroo = new Kangaroo(1, "Kenny", 2.0, 85.0, "Male", false);
-        koala = new Koala(1, "Kara", 20.0, 15.0, "Female");
+        kangaroo = new Kangaroo(1L, "Kenny", 2.0, 85.0, "Male", false);
+        koala = new Koala(1L, "Kara", 20.0, 15.0, "Female");
 
     }
 
